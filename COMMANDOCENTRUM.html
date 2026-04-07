@@ -4,13 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI Commandocentrum</title>
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="AI Centrum">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="theme-color" content="#0e0f11">
-<link rel="apple-touch-icon" href="data:image/png;base64,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">
-<link rel="manifest" id="pwaManifest">
+
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
 <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;700&family=Chivo+Mono:wght@300;400&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -287,23 +282,31 @@ body{font-family:var(--font);background:var(--bg);color:var(--ink);font-size:14p
 .dim{color:var(--ink2)}.lime{color:var(--lime)}.org{color:var(--org)}.blue{color:var(--blue)}
 .mono{font-family:var(--mono)}
 
-@media(max-width:680px){.sb{display:none}.g4{grid-template-columns:1fr 1fr}.ablayout{grid-template-columns:1fr}.g3{grid-template-columns:1fr}}
+
+/* ── MOBILE BOTTOM NAV ── */
+.mob-nav{display:none;position:fixed;bottom:0;left:0;right:0;z-index:200;
+  background:var(--surf);border-top:1px solid var(--border);
+  padding:8px 0 12px;
+}
+.mob-nav-row{display:flex;justify-content:space-around;align-items:center}
+.mob-btn{display:flex;flex-direction:column;align-items:center;gap:2px;
+  background:none;border:none;cursor:pointer;padding:4px 8px;
+  font-size:10px;color:var(--ink2);font-family:var(--font);
+  transition:color .15s;
+}
+.mob-btn.on{color:var(--lime)}
+.mob-btn .mi{font-size:20px}
+@media(max-width:680px){
+  .sb{display:none}
+  .mob-nav{display:block}
+  .main{padding-bottom:80px}
+  .g4{grid-template-columns:1fr 1fr}
+  .g3{grid-template-columns:1fr}
+  .ablayout{grid-template-columns:1fr}
+}
 </style>
 </head>
 <body>
-
-<!-- PWA INSTALL BANNER -->
-<div id="installBanner" style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:9999;background:#0e0f11;border-top:2px solid #c6f135;padding:14px 20px;display:none;align-items:center;gap:14px;box-shadow:0 -8px 32px rgba(0,0,0,.6)">
-  <div style="width:42px;height:42px;border-radius:10px;background:rgba(198,241,53,.1);border:1px solid rgba(198,241,53,.25);display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0">🤖</div>
-  <div style="flex:1;min-width:0">
-    <div style="font-family:'Familjen Grotesk',sans-serif;font-size:14px;font-weight:700;color:#f0ece3;margin-bottom:2px">Installeer als app</div>
-    <div style="font-size:12px;color:#5a5750">Zet het AI Commandocentrum op je startscherm</div>
-  </div>
-  <button id="installBtn" style="background:#c6f135;color:#0e0f11;font-family:'Familjen Grotesk',sans-serif;font-weight:800;font-size:13px;border:none;border-radius:8px;padding:10px 18px;cursor:pointer;white-space:nowrap;flex-shrink:0">
-    Installeren
-  </button>
-  <button onclick="document.getElementById('installBanner').style.display='none'" style="background:none;border:none;color:#4a4844;font-size:20px;cursor:pointer;padding:4px;flex-shrink:0;line-height:1">×</button>
-</div>
 
 <!-- TOPBAR -->
 <div class="top">
@@ -2143,127 +2146,37 @@ document.addEventListener('DOMContentLoaded', () => {
   renderTasks();
   refreshHome();
 
-  // ── PWA SETUP ──
-  injectManifest();
-  registerSW();
-  setupInstallPrompt();
 });
 
-// ── PWA: Inject manifest as blob so it works from local file ──
-function injectManifest() {
-  const manifest = {
-    name: 'AI Commandocentrum',
-    short_name: 'AI Centrum',
-    description: 'Jouw persoonlijk AI marketing systeem voor je webshop',
-    start_url: './',
-    display: 'standalone',
-    orientation: 'portrait-primary',
-    background_color: '#0e0f11',
-    theme_color: '#0e0f11',
-    icons: [
-      {
-        src: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='100' fill='%230e0f11'/%3E%3Ccircle cx='256' cy='200' r='60' fill='%23c6f135'/%3E%3Crect x='176' y='290' width='160' height='20' rx='10' fill='%23c6f135'/%3E%3Crect x='196' y='326' width='120' height='20' rx='10' fill='%23c6f135' opacity='.5'/%3E%3Crect x='216' y='362' width='80' height='20' rx='10' fill='%23c6f135' opacity='.25'/%3E%3C/svg%3E",
-        sizes: '512x512',
-        type: 'image/svg+xml',
-        purpose: 'any maskable'
-      }
-    ]
-  };
-  const blob = new Blob([JSON.stringify(manifest)], {type: 'application/json'});
-  const url = URL.createObjectURL(blob);
-  document.getElementById('pwaManifest').href = url;
-}
-
-// ── PWA: Register inline service worker ──
-function registerSW() {
-  if (!('serviceWorker' in navigator)) return;
-  const swCode = `
-const CACHE = 'acc-v1';
-self.addEventListener('install', e => {
-  self.skipWaiting();
-});
-self.addEventListener('activate', e => {
-  clients.claim();
-});
-self.addEventListener('fetch', e => {
-  e.respondWith(
-    caches.match(e.request).then(r => r || fetch(e.request).catch(() => new Response('Offline')))
-  );
-});`;
-  try {
-    const blob = new Blob([swCode], {type: 'application/javascript'});
-    const url = URL.createObjectURL(blob);
-    navigator.serviceWorker.register(url, {scope: './'}).catch(() => {});
-  } catch(e) {}
-}
-
-// ── PWA: Install prompt ──
-let deferredPrompt = null;
-function setupInstallPrompt() {
-  // Standard Chrome install prompt
-  window.addEventListener('beforeinstallprompt', e => {
-    e.preventDefault();
-    deferredPrompt = e;
-    const banner = document.getElementById('installBanner');
-    banner.style.display = 'flex';
-    document.getElementById('installBtn').onclick = async () => {
-      banner.style.display = 'none';
-      deferredPrompt.prompt();
-      const {outcome} = await deferredPrompt.userChoice;
-      deferredPrompt = null;
-      if (outcome === 'accepted') toast('✅ App geïnstalleerd op je startscherm!');
-    };
-  });
-
-  // iOS Safari — show manual instructions if not already installed
-  const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
-  const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
-  if (isIOS && !isStandalone) {
-    setTimeout(() => {
-      const banner = document.getElementById('installBanner');
-      banner.style.display = 'flex';
-      banner.querySelector('div:nth-child(3)').textContent = 'Zet op startscherm';
-      document.getElementById('installBtn').textContent = 'Hoe?';
-      document.getElementById('installBtn').onclick = () => {
-        banner.style.display = 'none';
-        showIOSInstall();
-      };
-    }, 1500);
-  }
-
-  // Already installed
-  if (isStandalone) {
-    document.getElementById('installBanner').style.display = 'none';
-  }
-}
-
-function showIOSInstall() {
-  const overlay = document.createElement('div');
-  overlay.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,.8);z-index:10000;display:flex;align-items:flex-end;justify-content:center;padding:20px';
-  overlay.innerHTML = `
-    <div style="background:#1d2028;border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:28px;max-width:380px;width:100%">
-      <div style="font-family:Familjen Grotesk,sans-serif;font-size:18px;font-weight:800;color:#f0ece3;margin-bottom:6px">Zet op je startscherm</div>
-      <div style="font-size:13px;color:#8a8680;margin-bottom:20px">3 stappen, klaar in 10 seconden</div>
-      <div style="display:flex;flex-direction:column;gap:12px">
-        <div style="display:flex;align-items:center;gap:12px;background:rgba(255,255,255,.04);border-radius:10px;padding:12px">
-          <div style="width:32px;height:32px;background:rgba(198,241,53,.1);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0">1</div>
-          <div style="font-size:13px;color:#d4d0c8">Tik op het <strong style="color:#c6f135">deel-icoon</strong> onderaan je scherm <span style="background:#333;padding:2px 6px;border-radius:4px;font-size:12px">□↑</span></div>
-        </div>
-        <div style="display:flex;align-items:center;gap:12px;background:rgba(255,255,255,.04);border-radius:10px;padding:12px">
-          <div style="width:32px;height:32px;background:rgba(198,241,53,.1);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0">2</div>
-          <div style="font-size:13px;color:#d4d0c8">Scroll omlaag → tik <strong style="color:#c6f135">"Zet op beginscherm"</strong></div>
-        </div>
-        <div style="display:flex;align-items:center;gap:12px;background:rgba(255,255,255,.04);border-radius:10px;padding:12px">
-          <div style="width:32px;height:32px;background:rgba(198,241,53,.1);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0">3</div>
-          <div style="font-size:13px;color:#d4d0c8">Tik <strong style="color:#c6f135">"Voeg toe"</strong> → klaar! Icoon op startscherm ✅</div>
-        </div>
-      </div>
-      <button onclick="this.closest('div[style*=fixed]').remove()" style="width:100%;margin-top:16px;background:#c6f135;color:#0e0f11;font-family:Familjen Grotesk,sans-serif;font-weight:800;font-size:14px;border:none;border-radius:10px;padding:14px;cursor:pointer">Begrepen, ik doe het nu</button>
-    </div>`;
-  overlay.onclick = e => { if(e.target === overlay) overlay.remove(); };
-  document.body.appendChild(overlay);
-}
-
+function mobAct(b){document.querySelectorAll('.mob-btn').forEach(x=>x.classList.remove('on'));b.classList.add('on')}
+function showMobMore(){document.getElementById('mobMore').style.display='block';document.getElementById('mobOv').style.display='block'}
+function hideMob(){document.getElementById('mobMore').style.display='none';document.getElementById('mobOv').style.display='none'}
 </script>
+
+<!-- MOBILE BOTTOM NAV -->
+<div class="mob-nav" id="mobNav">
+  <div class="mob-nav-row">
+    <button class="mob-btn" onclick="nav('home');mobAct(this)"><span class="mi">🏠</span>Home</button>
+    <button class="mob-btn" onclick="nav('tasks');mobAct(this)"><span class="mi">✅</span>Taken</button>
+    <button class="mob-btn" onclick="nav('adbuilder');mobAct(this)"><span class="mi">🎯</span>Ads</button>
+    <button class="mob-btn" onclick="nav('chat');mobAct(this)"><span class="mi">🤖</span>AI</button>
+    <button class="mob-btn" onclick="nav('mails');mobAct(this)"><span class="mi">📧</span>Mails</button>
+    <button class="mob-btn" onclick="showMobMore();mobAct(this)"><span class="mi">☰</span>Meer</button>
+  </div>
+</div>
+<div id="mobMore" style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:300;background:var(--surf);border-top:1px solid var(--border);padding:16px;border-radius:16px 16px 0 0">
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-bottom:12px">
+    <button onclick="nav('stappenplan');hideMob()" style="background:var(--raised);border:1px solid var(--border);border-radius:10px;padding:12px 8px;color:var(--ink2);font-family:var(--font);font-size:12px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:4px"><span style="font-size:20px">📋</span>Stappenplan</button>
+    <button onclick="nav('prompts');hideMob()" style="background:var(--raised);border:1px solid var(--border);border-radius:10px;padding:12px 8px;color:var(--ink2);font-family:var(--font);font-size:12px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:4px"><span style="font-size:20px">💬</span>Prompts</button>
+    <button onclick="nav('monitor');hideMob()" style="background:var(--raised);border:1px solid var(--border);border-radius:10px;padding:12px 8px;color:var(--ink2);font-family:var(--font);font-size:12px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:4px"><span style="font-size:20px">📊</span>Monitor</button>
+    <button onclick="nav('stijl');hideMob()" style="background:var(--raised);border:1px solid var(--border);border-radius:10px;padding:12px 8px;color:var(--ink2);font-family:var(--font);font-size:12px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:4px"><span style="font-size:20px">🧠</span>Stijl</button>
+    <button onclick="nav('tools');hideMob()" style="background:var(--raised);border:1px solid var(--border);border-radius:10px;padding:12px 8px;color:var(--ink2);font-family:var(--font);font-size:12px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:4px"><span style="font-size:20px">🔧</span>Tools</button>
+    <button onclick="nav('setup');hideMob()" style="background:var(--raised);border:1px solid var(--border);border-radius:10px;padding:12px 8px;color:var(--ink2);font-family:var(--font);font-size:12px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:4px"><span style="font-size:20px">⚙️</span>Instellingen</button>
+    <button onclick="nav('week');hideMob()" style="background:var(--raised);border:1px solid var(--border);border-radius:10px;padding:12px 8px;color:var(--ink2);font-family:var(--font);font-size:12px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:4px"><span style="font-size:20px">📅</span>Weekritme</button>
+  </div>
+  <button onclick="hideMob()" style="width:100%;background:var(--raised);border:1px solid var(--border);border-radius:10px;padding:12px;color:var(--ink2);font-family:var(--font);font-size:13px;cursor:pointer">✕ Sluiten</button>
+</div>
+<div id="mobOv" onclick="hideMob()" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:250"></div>
+
 </body>
 </html>
